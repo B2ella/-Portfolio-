@@ -13,6 +13,7 @@ import Circles from './Components/Projects/circles'
 import TheSamePage from './Components/Projects/thesamepage'
 import Icebreaker from './Components/Projects/Icebreaker'
 import Cursor from './Components/Cursor/Cursor'
+import Error from './Components/Error/Error'
 function App() {
   const [loading, setLoading] = useState(false)
   
@@ -23,7 +24,7 @@ function App() {
     }, 2000);
   }, []);
 
-  // return loading ? <Loading/> : <Layout><Cursor/><Component {...pageProps} /></Layout>
+  
   return loading ? <Loading/> : (
   <div className="App">
  
@@ -32,12 +33,15 @@ function App() {
 
 <Router>
  <Routes>
+
   <Route path='/' element={<HomePage/>}/>
-  <Route path='/aboutMe' element={<AboutMe/>}/>
+  <Route path='/aboutMe' element={<Error/>}/>
   <Route path='/projects' element={<Projects/>}/>
   <Route path='/projects/circles' element={<Circles/>}/>
   <Route path='/projects/icebreaker' element={<Icebreaker/>}/>
   <Route path='/projects/thesamepage' element={<TheSamePage/>}/>
+  <Route path='*' element={<Error/>}/>
+ 
  </Routes>
 </Router>
 </Layout>
