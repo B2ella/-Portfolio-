@@ -2,6 +2,7 @@
 import {motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 
 const Projects = () => {
@@ -19,7 +20,7 @@ const Projects = () => {
         id="projects"
         ref={ref}
         className="bg-brandblack">
-        
+        <Header/>
         
         
           <section className="overflow-hidden whitespace-nowrap">

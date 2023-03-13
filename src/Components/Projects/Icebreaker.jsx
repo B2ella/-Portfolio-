@@ -3,6 +3,7 @@ import { RoughNotation } from "react-rough-notation";
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
+import Header from "../Header/Header";
 
 
 
@@ -32,6 +33,7 @@ const Icebreaker = () => {
 
     return (
         <div className="bg-black ">
+        <Header/>
         <div className="grid place-content-center pt-20">
         <img src={images.ib} alt="" width={700} height={700} />
         </div>

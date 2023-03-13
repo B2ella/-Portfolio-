@@ -6,6 +6,7 @@ import Mission from "../Mission/Mission";
 import Preloader from "../Preloader/Preloader";
 import Projects from "../Projects";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 
 
@@ -14,9 +15,9 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
     return (
         <section>
+         <Header/>
         <Preloader/>
         <section className='bg-black h-screen overflow-hidden'>
-        <Menu/>
         <div className='flex flex-col justify-center items-center text-7.3vw text-center h-screen '>
         
         <h1 className='font-arial text-brandpurple font-500 leading-.82 -tracking-.04em '>Hey! <br/>I'm Belle,a developer<br/> that loves design</h1>

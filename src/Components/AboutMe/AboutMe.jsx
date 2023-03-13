@@ -1,3 +1,4 @@
+import Header from "../Header/Header";
 
 const AboutMe = () => {
 
@@ -5,7 +6,7 @@ const AboutMe = () => {
 
     return (
         <section className="bg-gradient-to-b from-black to-[#262523] h-screen">
-        
+        <Header/>
         <div  className=" whitespace-nowrap overflow-hidden">
         <h1  className="animate-scroll text-7.3vw text-brandpurple font-homemade leading-.82 -tracking-.04em  uppercase mt-20 ">
          About Me~About Me~About Me About Me~About Me~About Me~About Me~About Me. </h1>

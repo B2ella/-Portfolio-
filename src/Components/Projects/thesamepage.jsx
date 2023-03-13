@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
 
 
@@ -8,8 +9,7 @@ const TheSamePage = () => {
 
     return (
         <div  className="bg-black h-screen">
-        <Link href='/' className="fixed top-5 left-5 text-1.7vw font-arial text-brandcream -tracking-.04em">IS~Y</Link>
-        <Menu/>
+        <Header/>
         <div className="grid place-content-center">
 
         <video autoPlay loop muted className='w-[70vw] h-[70vh] -mt-5 '>
