@@ -16,27 +16,21 @@ const Projects = () => {
 
     return (
     
-        <div 
-        id="projects"
-        ref={ref}
-        className="bg-brandblack">
+        <div id="projects" ref={ref} className="bg-brandblack">
         <Header/>
-        
         
           <section className="overflow-hidden whitespace-nowrap">
           <a href={'/projects/icebreaker'}>
-          <motion.div 
-          style={{ x }}
-          className=" ">
+          <motion.div style={{ x }} className=" ">
 
           <h1 className="text-10.3vw font-homemade leading-.82 -tracking-.04em 
           text-brandcream pt-10 pl-10 hover:animate-scroll hover:text-brandpurple">the ice breaker - the ice breaker -
           </h1> 
+
           </motion.div>
           <span className="font-thin font-arial text-1.9vw tracking-normal text-brandcream p-10 hover:text-yellow-200">research / design / developement</span>
           </a>
 
-         
 
           <a href={'/projects/circles'}>
           <motion.div 
@@ -80,16 +74,17 @@ const Projects = () => {
 
           </section>
           <section className="overflow-hidden whitespace-nowrap">
-          <a href={'/projects/thesamepage'}>
+          <a href="https://b2ella.github.io/the-inkd-kind/">
+
           <motion.div 
           style={{ x: x }}
           className="">
 
           <h1 className="text-10.3vw font-homemade leading-.82 -tracking-.04em 
-          text-brandcream  pt-10 pl-10 hover:animate-scroll hover:text-brandpurple">ink'd site - ink'd site - ink'd site
+          text-brandcream  pt-10 pl-10 hover:animate-scroll hover:text-brandpurple">the ink'd kind site - the ink'd kind site - the ink'd kind site
           </h1> 
           </motion.div>
-          <span className="font-thin font-arial text-1.9vw tracking-normal text-brandcream p-10 hover:text-yellow-200">coming soon</span>
+          <span className="font-thin font-arial text-1.9vw tracking-normal text-brandcream p-10 hover:text-yellow-200">design / developement</span>
           </a>
 
           </section>
