@@ -29,7 +29,7 @@ const AboutMe = () => {
          I've always had an interest in websites and a curiosity about their design and functionality. 
          So I started self-studying, and shortly after, I started a 16-week intensive bootcamp that 
          taught me all about the fundamentals of programming, the importance of agile methodologies, 
-         collaborating with teams, and pair programming.<a href="/Belle Francis.pdf" className='ml-1 bg-brandcream text-black '>CV (pdf)</a>
+         collaborating with teams, and pair programming.<a href="/public/cv.pdf" className='ml-1 bg-brandcream text-black '>CV (pdf)</a>
         </p>
 
         <span className="text-black font-bold -mt-10">
